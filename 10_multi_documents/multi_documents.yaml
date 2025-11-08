@@ -1,0 +1,25 @@
+# we can have multiple YAML documents in a single file separated by '---'
+
+# First document
+---
+application:
+  name: MultiDocApp
+  version: 1.0.0
+  description: An application defined in multiple YAML documents.
+...
+
+# Second document
+---
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: secret
+...
+
+# Third document
+---
+logging:
+  level: INFO
+  file: /var/log/multidocapp.log
+...
