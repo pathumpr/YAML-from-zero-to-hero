@@ -1,0 +1,12 @@
+# standard format: YYYY-MM-DD
+date: 2025-11-08
+
+# full date & time format (canonical): YYYY-MM-DDTHH:MM:SSZ
+timestamp: 2025-11-08T14:30:00Z
+
+# full date & time with timezone (iso8601): YYYY-MM-DDTHH:MM:SS±HH:MM
+timestamp_with_offset: 2025-11-08T14:30:00+05:30
+
+# also possible to define with following formats
+spaced_timestamp: 2025-11-08 14:30:00 +05:30
+no_timezone: 2025-11-08 14:30:00
