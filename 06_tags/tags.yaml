@@ -1,0 +1,4 @@
+full_name: !!str John Doe
+age: !!int 30
+height: !!float "5.10"
+is_married: !!bool "false"
