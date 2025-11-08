@@ -1,0 +1,15 @@
+person:
+  name: John Doe
+  age: 23
+  gender: Male
+  is_married: false
+
+  hobbies:
+    - Traveling
+    - Photography
+
+  address:
+    street: 123 Main street
+    city: AnyCity
+    state: AnyState
+    zip: 1234
