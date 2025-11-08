@@ -1,0 +1,16 @@
+person:
+  first_name: "John"
+  last_name: Doe
+  gender: 'Male'
+  age: 23
+  is_married: false
+  is_asian: Yes # evaluates to true
+
+  hex: 0x12d6 # evaluates to 4822
+  octal: 0o24432 # evaluates to 10522
+  positive_infinity: .inf # evaluates to infinity
+  negative_infinity: -.Inf # evaluates to negative infinity
+  invalid_number: .NAN # Not a Number
+  null_value: null
+  null_value2: ~
+  null_value3:
