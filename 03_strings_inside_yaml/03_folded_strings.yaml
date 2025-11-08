@@ -1,0 +1,4 @@
+folded_block: >
+  This is a folded string.
+  Line breaks are replaced with spaces.
+  Leading spaces are preserved.

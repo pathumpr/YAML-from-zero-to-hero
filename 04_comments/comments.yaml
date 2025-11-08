@@ -1,0 +1,8 @@
+# YAML supoorts comments, which does not support in json.
+
+# This is a comment
+key: value
+
+# This is a multi-line comment
+# that spans multiple lines
+key_2: value

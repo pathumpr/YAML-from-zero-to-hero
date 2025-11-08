@@ -1,0 +1,4 @@
+multiline_block: |
+  This is a multiline string.
+  It preserves line breaks
+  and spaces.
