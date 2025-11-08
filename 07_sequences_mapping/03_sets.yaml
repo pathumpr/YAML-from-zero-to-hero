@@ -1,0 +1,5 @@
+# usage - Ideal for collections where uniqueness is essential
+employees_set: !!set
+  ? Alice
+  ? Bob
+  ? Charlie

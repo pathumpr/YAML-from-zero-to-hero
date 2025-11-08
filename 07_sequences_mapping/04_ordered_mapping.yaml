@@ -1,0 +1,5 @@
+# usage - Ensures the order of key-value pairs is maintained
+ordered_mapping_example: !!omap
+  - SL: Colombo
+  - USA: New York
+  - UK: London

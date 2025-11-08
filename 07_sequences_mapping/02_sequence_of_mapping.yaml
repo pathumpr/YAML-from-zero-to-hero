@@ -1,0 +1,9 @@
+users:
+  - name: Alice
+    role: developer
+
+  - name: Bob
+    role: designer
+    
+  - name: Charlie
+    role: manager
