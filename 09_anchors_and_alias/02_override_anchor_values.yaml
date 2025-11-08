@@ -1,0 +1,27 @@
+definition:
+  days:
+    - weekday: &working  # anchor
+        wakeup: 6:00 AM
+        activities: 
+          - work
+          - meetings
+          - emails
+    - weekend: &holiday  # anchor
+        wakeup: 8:00 AM
+        activities: 
+          - movies
+          - shopping
+          - sleep
+
+  schedules:
+    days:
+      -monday: *working     # alias
+      -tuesday: *working    # alias
+      -wednesday: *working  # alias
+      -thursday: *working   # alias
+      -friday: *working     # alias
+      -saturday: *holiday   # alias
+      -sunday:
+        <<: *holiday
+        wakeup: 9:00 AM     # override the wakeup time
+        netflix: true       # add a new key-value pair
